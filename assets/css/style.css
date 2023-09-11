@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+ :root{
+    --dark-primary:#1b1f24;
+    --primary:#12bdff
+    
+ }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  
+    /* font-family: 'Poppins', sans-serif; */
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .logo{
+ font-weight:bold;
+ color:var(--primary);
+ letter-spacing:2px;
+
+}
+
+header #logo a{
+ text-decoration:none;
+}
+
+header{
+    background-color:var(--dark-primary);
+    padding:20px;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.nav{
+    display:flex;
+    /* flex-direction:row; */
+    justify-content:space-between;
+    /* padding-left:50px; */
+}
+
+ul li{
+   list-style:none; 
+   margin-right:30px;
+}
+
+ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+ul li a:hover{
+    color:var(--primary);
+}
+
+header button{
+    padding:10px 20px;
+    border-radius:5px;
+    font-weight:bold;
+    background-color:var(--dark-primary);
+    border:1px solid var(--primary);
+    color:var(--primary);
+    
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color:var(--primary);
+    color:var(--dark-primary);
+}
